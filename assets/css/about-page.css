@@ -1,0 +1,99 @@
+.about-page {
+  background-color: #051c2e;
+}
+.about-page-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 0 20px 0;
+}
+.about-page-container .left-content {
+  width: 100%;
+  order: 2;
+  padding: 0 20px;
+}
+.about-page-container .left-content h2 {
+  color: var(--WHITE, var(--50, #fff));
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.about-page-container .left-content p {
+  margin-top: 30px;
+  color: var(--Light-Blue, #f1f8fe);
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.about-page-container .right-content {
+  width: 100%;
+  order: 1;
+}
+.about-page-container .right-content img {
+  width: 100%;
+  height: 260px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-page-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 20px 0 20px 0;
+  }
+  .about-page-container .right-content img {
+    height: 632px;
+  }
+  .about-page-container .left-content h2 {
+    font-size: 42px;
+  }
+  .about-page-container .left-content p {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1350px) {
+  .about-page-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 100px 0 120px 0;
+  }
+  .about-page-container .right-content img {
+    height: 532px;
+  }
+  .about-page-container .left-content h2 {
+    font-size: 42px;
+  }
+  .about-page-container .left-content p {
+    font-size: 18px;
+  }
+  .about-page-container .left-content {
+    order: 1;
+    padding: 0 0;
+  }
+  .about-page-container .right-content {
+    order: 2;
+    padding: 0 0;
+  }
+}
+@media screen and (min-width: 1750px) {
+  .about-page-container {
+    width: 63%;
+  }
+  .about-page-container .left-content h2 {
+    font-size: 60px;
+  }
+  .about-page-container .right-content img {
+    height: 632px;
+  }
+}

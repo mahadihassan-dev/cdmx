@@ -1,0 +1,115 @@
+.privacy-policy-page-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.privacy-policy-page-container h2 {
+  color: var(--Text-Heading, #141414);
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+.privacy-policy-page-container .date {
+  color: var(--body-text, #6f6f6f);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 18px */
+  margin-top: 20px;
+}
+.privacy-policy-page-container .introduction {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.privacy-policy-page-container h3 {
+  color: var(--black-1, #202020);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.privacy-policy-page-container h4 {
+  color: var(--black-1, #202020);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.privacy-policy-page-container p {
+  color: var(--black-1, #202020);
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.privacy-policy-page-container .other-infos{
+    margin-top: 10px;
+}
+.privacy-policy-page-container ul{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+}
+.privacy-policy-page-container ul li{
+    list-style-type: disc;
+}
+.privacy-policy-page-container ul li span{
+    color: #202020 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    margin-right: 4px;
+}
+
+@media screen and (min-width: 1275px) {
+    .privacy-policy-page-container {
+        width: 63%;
+        margin: 0 auto;
+        padding: 80px 0;
+      }
+      .privacy-policy-page-container h2 {
+        font-size: 60px;
+      }
+      .privacy-policy-page-container .date {
+        font-size: 18px;
+        margin-top: 60px;
+      }
+      .privacy-policy-page-container .introduction {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .privacy-policy-page-container h3 {
+        font-size: 30px;
+      }
+      .privacy-policy-page-container h4 {
+        font-size: 24px;
+      }
+      .privacy-policy-page-container p {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .privacy-policy-page-container .other-infos{
+          margin-top: 20px;
+      }
+      .privacy-policy-page-container ul{
+          margin-top: 20px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          padding-left: 30px;
+      }
+      .privacy-policy-page-container ul li span{
+          font-size: 18px !important;
+      }
+}

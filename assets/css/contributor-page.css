@@ -1,0 +1,51 @@
+.contributors-page-container {
+  width: 63%;
+  margin: 0 auto;
+  padding: 100px 0 60px 0;
+}
+.contributors-page-container h2 {
+  color: var(--black-1, #202020);
+  text-align: center;
+  font-family: Lato;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+}
+.contributors-page-container .contributors {
+  margin-top: 80px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.contributors-page-container .contributors .item {
+  border-radius: 10px;
+  background: var(--Light-Blue, #f1f8fe);
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 40px 0;
+  /* justify-content: center; */
+  align-items: center;
+  height: 414px;
+}
+.contributors-page-container .contributors .item h3 {
+  color: #202020;
+  text-align: center;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 20px;
+}
+.contributors-page-container .contributors .item h5 {
+  color: var(--Text-Body, #5a5c5f);
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 10px;
+}
